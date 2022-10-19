@@ -9,7 +9,7 @@ import http from "http";
 
 const curretnPathOfFile = import.meta.url;
 console.log(curretnPathOfFile, os, fs, path, http);
-
+console.log(123);
 /*
 to start debugging
 Run -> add config -> NodeJS
