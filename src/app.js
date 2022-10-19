@@ -8,7 +8,7 @@ import path from "path";
 import http from "http";
 
 const curretnPathOfFile = import.meta.url;
-console.log(curretnPathOfFile);
+console.log(curretnPathOfFile, os, fs, path, http);
 
 /*
 to start debugging
