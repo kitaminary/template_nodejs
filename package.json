@@ -5,12 +5,10 @@
   "scripts": {
     "start": "nodemon src/server.js",
     "format": "prettier --write . --ignore-path .gitignore",
-    "lint": "eslint . --ignore-path .gitignore",
-    "test": "npm run format && npm run lint -- --fix",
+    "test": "npm run format",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "eslint": "^8.50.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
     "nodemon": "^2.0.22",
